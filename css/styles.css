@@ -1,0 +1,175 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #8f8f8f;
+	padding: 0 15% 5%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: "Ubuntu", serif;
+	font-size: 2rem;
+	padding-bottom: 3%;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+
+.heading {
+	margin: 10px;
+	font-size: 4rem;
+}
+
+/* Header */
+.container-fluid {
+	padding: 3% 10%;
+}
+
+#brand {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5rem;
+}
+
+#title {
+	background-color: #ff4c68;
+	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+	padding: 0 0 5%;
+}
+
+.row {
+	padding-top: 1.5rem;
+}
+
+.nav-item {
+	padding: 0 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+	margin: 1.5rem;
+}
+
+.title-img {
+	width: 350px;
+	position: absolute;
+	transform: rotate(25deg);
+}
+
+@media (max-width: 1050px) {
+	.title-img {
+		width: 300px;
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	#title {
+		text-align: center;
+	}
+
+}
+
+/* Features */
+
+.features {
+	background-color: white;
+	position: relative;
+	text-align: center;
+}
+
+.icon {
+	color: #ef8172;
+}
+
+.icon:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+	padding: 7% 25%;
+	background-color: #ef8172;
+	color: #fff;
+	text-align: center;
+}
+
+.img {
+	width: 10%;
+	border-radius: 100%;
+}
+
+#press {
+	background-color: #ef8172;
+	padding: 0 0 3%;
+	text-align: center;
+}
+
+.press-img {
+	width: 10%;
+	margin: 0 5%;
+}
+
+/* Pricing */
+
+.price-desc {
+	padding: 0;
+}
+
+.price-head {
+	padding: 3% 0 0;
+}
+
+#pricing {
+	text-align: center;
+}
+
+.sign-btn {
+	background-color: #ef8172;
+	border: #ef8172;
+	color: #ffffff;
+}
+
+.sign-btn:hover {
+	background-color: #ff4c68;
+	border: #ef8172;
+	color: #ffffff;
+
+}
+
+.sign-btn:active {
+	background-color: black;
+}
+
+.card3 {
+	background-color: #ef8172;
+}
+
+/* cta */
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 5% 3%;
+	color: white;
+}
+
+/* footer */
+
+#footer {
+	text-align: center;
+	padding: 3% 0 0;
+}
+
+.contact-logo {
+	margin: 2%
+}
